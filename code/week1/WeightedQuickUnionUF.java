@@ -15,6 +15,7 @@ public class WeightedQuickUnionUF {
     }
     public int find(int p ){
         while(parents[p] != p){
+            parents[p] = parents[parents[p]];   //路径压缩!!!!
             p = parents[p];
         }
         return p;
