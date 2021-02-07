@@ -1,4 +1,4 @@
-package week1;
+package Week1;
 
 public class QuickUnionUF {
     private int[] id;
