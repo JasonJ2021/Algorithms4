@@ -37,7 +37,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] a = new int[10000000];
+        int[] a = new int[100000000];
         for (int i = 1; i < a.length; i++) {
             a[i] = StdRandom.uniform(1000);
         }
